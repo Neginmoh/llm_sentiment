@@ -141,6 +141,7 @@ Most variables and default values could be configured in the Config.py file. Her
 ### Input format
 
 Below are two examples from [takala/financial_phrasebank](https://huggingface.co/datasets/takala/financial_phrasebank) dataset:
+
 Example #1:
 ```
 {'sentence': 'According to Gran , the company has no plans to move all production to Russia , although that is where the company is growing .',
