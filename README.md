@@ -16,8 +16,8 @@ You may choose to work with a different dataset by specifying associated variabl
 ## Models
 
 We will utilize two models available on Hugging Face Hub:
-1. [**finiteautomata/bertweet-base-sentiment-analysis**](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment): A BERT-based model for English tweets, finetuned for sentiment analysis. See the model card for more information.
-2. [**cardiffnlp/twitter-roberta-base-sentiment**](https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis): A roBERTa-base model trained on tweets and fine-tuned for sentiment analysis. See the model card for more information.
+1. [**finiteautomata/bertweet-base-sentiment-analysis**](https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis): A BERT-based model for English tweets, finetuned for sentiment analysis. See the model card for more information.
+2. [**cardiffnlp/twitter-roberta-base-sentiment**](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment): A roBERTa-base model trained on tweets and fine-tuned for sentiment analysis. See the model card for more information.
 
 We have chosen to work with these two models since they are fine-tuned on sentiment analysis task and their predictions are within three classes of 'positive', 'neutral', and 'negative' sentiments. You may use your preferred models by specifying associated variables in config.py file and modifying model configurations as needed.
 
